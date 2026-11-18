@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Tak Berfaedah 💀</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="hiasan hiasan1">🗿</div>
+    <div class="hiasan hiasan2">🐟</div>
+    <div class="hiasan hiasan3">💀</div>
+
+    <main class="kotak">
+
+        <!-- PAPARAN PERTAMA -->
+        <section id="mula">
+            <div class="emoji">🗿</div>
+
+            <h1>OI.</h1>
+            <h2>KAU BUAT APA SINI?</h2>
+
+            <p>
+                AKU PUN TAK TAU KENAPA
+                WEBSITE NI WUJUD.
+                <br><br>
+                Tapi memandangkan kau dah sampai sini...
+                <br>
+                TEKAN LAH. 😭
+            </p>
+
+            <button onclick="paparIkan()">
+                AKU PUN TAK TAU 💀
+            </button>
+        </section>
+
+        <!-- PAPARAN KEDUA -->
+        <section id="ikan" class="sembunyi">
+            <div class="emoji ikan">🐟</div>
+
+            <h1>IKAN PUN TAK TANYA.</h1>
+
+            <p>
+                Tapi kau tekan juga.
+                <br><br>
+                Tahniah atas keputusan tersebut.
+                <br>
+                Sekarang tunggu.
+                Ada benda penting.
+            </p>
+
+            <button onclick="mulaLoading()">
+                APA BENDA PENTING? 👁️
+            </button>
+        </section>
+
+        <!-- LOADING PALSU -->
+        <section id="loading" class="sembunyi">
+            <div class="emoji">🤡</div>
+
+            <h2 id="teksLoading">
+                Menghubungi ikan bilis...
+            </h2>
+
+            <div class="bar">
+                <div id="isiBar"></div>
+            </div>
+
+            <p id="peratus">0%</p>
+        </section>
+
+        <!-- VIDEO MEME -->
+        <section id="videoPage" class="sembunyi">
+            <div class="emoji">💀</div>
+
+            <h1>TAHNIAH.</h1>
+
+            <h2>
+                KAU TELAH MEMBUANG
+                BEBERAPA SAAT HIDUP KAU.
+            </h2>
+
+            <p>
+                Sila nikmati video ini
+                sebagai pampasan. 🗿
+            </p>
+
+            <video id="videoMeme" controls playsinline>
+                <source src="meme.mp4" type="video/mp4">
+                Video tidak dapat dimainkan.
+            </video>
+
+            <div class="pilihan">
+                <button id="lariBtn">
+                    🏃 AKU NAK BALIK
+                </button>
+
+                <button onclick="apaBenda()">
+                    😭 APA BENDA NI WEH
+                </button>
+            </div>
+
+            <p id="jawapan"></p>
+
+            <button class="ulang" onclick="ulangSemula()">
+                🔄 ULANG KEBODOHAN
+            </button>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
